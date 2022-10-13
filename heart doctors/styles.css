@@ -1,0 +1,52 @@
+nav {
+  background: rgba(150, 49, 85, 0.24);
+  box-shadow: inset 0px -4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 25px;
+}
+
+nav a {
+  text-decoration: none;
+}
+
+.heart-doc-body {
+  background: rgba(235, 142, 142, 0.66);
+  box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 26px;
+  background-image: url(/images/pngaaa1.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 650px;
+}
+
+#search-icon{
+  cursor: pointer;
+}
+
+.search-form {
+  height: 100%;
+  background: #E6CED6;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  box-shadow: inset 0px -4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.search-field {
+  background: transparent;
+  border: none;
+  outline: none;
+  flex: 1;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 225%;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.search-btn {
+  background: #DE9090;
+  border: none;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 30px;
+  float: right;
+  cursor: pointer;
+}
